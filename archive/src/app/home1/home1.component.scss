@@ -1,5 +1,5 @@
 :host ::ng-deep .p-dropdown {
-    width: 20rem;
+    width: 230px;
     border-radius: 0.5em;
     margin-left: 1rem;
 }
@@ -37,3 +37,9 @@
     width: 32px;
     float: right;
 }
+
+@media screen ,(max-width: 375px) {
+   
+ 
+   
+  }
