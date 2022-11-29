@@ -35,5 +35,16 @@
 .image{
     
     width: 32px;
-    float: right;
+    float: left;
 }
+
+.container {
+    // background: gray;
+    width: 100%;
+    height: auto; /* height given for illustration */
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+  }
+
+

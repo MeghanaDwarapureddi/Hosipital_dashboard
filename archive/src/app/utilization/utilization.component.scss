@@ -7,6 +7,8 @@
 
 :host ::ng-deep .panelcontent .p-panel-content{
     background-color: aqua;
+    padding-top: 0px;
+    padding-bottom: 0px;
     
 }
 
@@ -30,6 +32,7 @@
     color: rgb(38, 133, 156);
     
 }
+
 
 
 @media screen ,(max-width: 425px) {
@@ -71,3 +74,24 @@
 
 
 
+.container {
+  // background: gray;
+  width: 100%;
+  height: auto; /* height given for illustration */
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+.item {
+  // background: blue;
+  margin: 20px;
+  flex: 0 1 calc(25% - 40px); /* <-- adjusting for margin */
+}
+.patcontainer {
+  // background: gray;
+  width: 100%;
+  height: auto; /* height given for illustration */
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
