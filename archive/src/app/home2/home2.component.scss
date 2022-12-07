@@ -1,7 +1,9 @@
 :host ::ng-deep .p-dropdown {
     width: 230px;
     border-radius: 0.5em;
-    margin-left: 0.5vh;
+    margin-left: 6px;
+    margin-top:-8px
+
   }
 
 :host ::ng-deep 
@@ -23,8 +25,10 @@ padding: 0rem;
 
 :host ::ng-deep .panel1 .p-panel-header {
     background-color: rgb(97, 180, 206);
-    font-size: x-large;
+    font-size: 28px;
     color: white;
+    border-top-left-radius: 1.2vh;
+    border-top-right-radius: 1.2vh;
 }
 
 :host ::ng-deep .panel1 .p-panel-content {
@@ -33,7 +37,7 @@ padding: 0rem;
 
 .image{
     
-    // width: 32px;
+    width: 32px;
     float: right;
 }
 
@@ -53,3 +57,33 @@ padding: 0rem;
 //   }
 
 
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 12px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    // text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+@media screen and (max-width: 1024px) ,(min-width:768) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+      
+    }
+  }
