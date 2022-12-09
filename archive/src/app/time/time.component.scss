@@ -1,6 +1,6 @@
 .sty {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(38, 133, 156);
+    font-family: Arial;
+    color: rgba(49,144,177,255);
 
 }
 
@@ -20,25 +20,25 @@
 
 ::ng-deep.check .p-checkbox-box {
     // padding: 2px;
-    background-color: rgb(59, 65, 85);
+    background-color: rgba(125,149,177,255);
 }
 
 ::ng-deep.fivemin .p-checkbox-box {
     // padding: 2px;
-    background-color: green;
+    background-color:rgba(127,178,97,255);
 }
 
 
 ::ng-deep.tenmin .p-checkbox-box{
-    background-color: rgb(226, 159, 59);
+    background-color: rgba(242,181,101,255);
 }
 
 ::ng-deep.fifteenmin .p-checkbox-box{
-    background-color: orangered;
+    background-color: rgba(240,121,40,255);
 }
 
 ::ng-deep.twentymin .p-checkbox-box{
-    background-color: red;
+    background-color: rgba(241,41,41,255);
 }
 
 
